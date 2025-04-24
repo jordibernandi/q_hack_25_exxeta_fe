@@ -1,6 +1,6 @@
 import { useMutation } from '@tanstack/react-query';
 import {
-    fetchRecommendCandidates, sendCandidateEmails
+    fetchRecommendCandidates
 } from '@/features/recommender/api/recommender-api';
 
 export const useRecommendCandidateMutation = () => {

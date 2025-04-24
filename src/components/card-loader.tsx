@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Skeleton } from "@/components/ui/skeleton"
 import { Spinner } from "@/components/ui/spinner" // Import your spinner component
 
 interface CardLoaderProps {
@@ -16,13 +15,11 @@ const CardLoader: React.FC<CardLoaderProps> = ({
     description,
     isLoading,
     children,
-    count, // Removed default value here
 }) => {
     if (!isLoading) {
-        return <>{children}</>; // Render the actual content when not loading
+        return <>{children}</>;
     }
 
-    //  Render a centered spinner
     return (
         <Card className='w-full'>
             {title && <CardHeader>

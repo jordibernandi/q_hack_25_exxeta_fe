@@ -30,5 +30,4 @@ export default function ProjectItem({ project }) {
             <Separator />
         </>
     );
-
 }

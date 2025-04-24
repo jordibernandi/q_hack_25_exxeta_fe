@@ -26,10 +26,9 @@ import { useEffect, useState } from "react";
 import CandidateTable from "./candidate-table";
 import { Candidate, CandidateGroup } from "@/lib/types";
 import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
 import { sendCandidateEmails } from "../api/recommender-api";
 import CardLoader from "@/components/card-loader";
-import { Spinner } from "@/components/ui/spinner"; // Import the Spinner component
+import { Spinner } from "@/components/ui/spinner";
 
 
 export default function CandidateList() {
@@ -73,8 +72,6 @@ export default function CandidateList() {
     };
 
     const { mutate, data, isPending, isError } = useRecommendCandidateMutation();
-
-    console.log("DATA", data)
 
     useEffect(() => {
         if (selectedProject) {

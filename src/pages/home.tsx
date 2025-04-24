@@ -19,7 +19,6 @@ export function HomePage() {
   return (
     <div className="container mx-auto">
       <div className="flex flex-col gap-6">
-        {/* <h1 className="text-3xl">Find Your Candidates</h1> */}
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
@@ -47,8 +46,6 @@ export function HomePage() {
           </div>
         )}
       </div>
-
-
     </div >
   );
 };

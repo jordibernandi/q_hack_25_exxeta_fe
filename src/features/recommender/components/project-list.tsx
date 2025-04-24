@@ -33,5 +33,4 @@ export default function ProjectList() {
             </CardContent>
         </Card>
     );
-
 }
