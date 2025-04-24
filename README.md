@@ -1,6 +1,6 @@
 ### Task Management Frontend
 
-A modern React frontend application build to connects consultants with fitting projects by leveraging Multi-Agent AI Systems. Tech students are invited to explore how intelligent agent collaboration can bridge the gap between individual profiles and project needs, creating smarter, more dynamic connections. Whether it’s through skill-based matching, smart recommendations, or automated coordination, the aim is to let AI assist in establishing meaningful partnerships. Participants are encouraged to explore different approaches, experiment with agent roles, and develop solutions that make these processes more efficient.
+A modern React frontend application build to connects consultants with fitting projects by leveraging Multi-Agent AI Systems.
 
 ## 📋 Overview
 
